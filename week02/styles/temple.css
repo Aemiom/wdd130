@@ -1,0 +1,39 @@
+header, footer{
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+main{
+    width:400px;
+    margin:0 auto;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+
+}
+img{
+    width: 100%;
+    height:auto;
+    box-shadow: 0 0 50px #333333;
+
+
+}
+section {
+    margin: 20px 0px;
+    border: 1px solid #333333;
+    padding: 10px;
+    background-color: lightblue;
+    
+}
+h2{
+    border-bottom: 1px solid black;
+    
+
+}
+ul{
+    padding: 0 20px ;
+   
+}
