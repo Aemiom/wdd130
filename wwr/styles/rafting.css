@@ -49,6 +49,10 @@ nav, p, section, article {
     display: block;
     width: 100%;
     height: auto;
+    position: absolute;
+  }
+  .hero article {
+    position: absolute;
   }
 
 h1 {
@@ -69,7 +73,7 @@ article{
   padding: 16px;
 
   opacity: 1;
-  background-color: var(--accent1-color);
+  background-color: var(--accent2-color);
   color: white;
 }
 
@@ -98,7 +102,7 @@ nav{
   text-align: center;
 }
 header, .hero, section, footer {
-  border: 2px solid black;
+  border: 2px solid var(--secondary-color);
   padding: 16px;
 }
 .adventure{
