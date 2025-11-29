@@ -43,6 +43,7 @@ nav, p, section, article {
 }
 .hero{
     position: relative;
+    height: 500px
 
 }
 .hero img {
