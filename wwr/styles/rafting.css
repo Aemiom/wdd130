@@ -43,7 +43,7 @@ nav, p, section, article {
 }
 .hero{
     position: relative;
-    height: 500px
+    height: 475px
 
 }
 .hero img {
@@ -51,6 +51,9 @@ nav, p, section, article {
     width: 100%;
     height: auto;
     position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
   }
   .hero article {
     position: absolute;
@@ -58,13 +61,14 @@ nav, p, section, article {
 
 h1 {
   position: absolute;
-  top: 20px;
+  top: 1px;
   width: 100%;
   padding: 16px;
   text-align: center;
   opacity: 0.7;
   background-color: var(--accent1-color);
   color: #fff; 
+  left: 0;
 }
 article{
   position: absolute;
@@ -97,14 +101,18 @@ nav{
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
   align-items: center;
+ 
+  
 }
 .history h2{
   grid-column: 1/4;
   text-align: center;
+  
 }
 header, .hero, section, footer {
   border: 2px solid var(--secondary-color);
-  padding: 16px;
+  padding: 0px;
+  
 }
 .adventure{
   display:grid;
@@ -149,5 +157,49 @@ footer p{
 }
 .map_form{
   display:flex;
+
+}
+.form{
+  border: solid 2px var(--secondary-color);
+
+
+}
+
+form button,
+form label{
+  display: flex;
+}
+.call{
+  position: relative;
+  height: 500px;
+}
+.call img{
+  width: 100%;
+  height: auto;
+
+}
+
+.call_form{
+  display:flex;
+  margin: 10px;
+}
+table{
+  width:100%;
+}
+th, td{
+border: 1px black;
+  opacity: .7;
+  background-color: var(--accent1-color);
+  color: white;
+}
+.trips_contact{
+  display:flex;
+  justify-content: space-between;
+}
+.trip_disc{
+  display:flex;
+  align-items: center;
+  padding:10px;
+  border: 1px solid black;
 
 }
